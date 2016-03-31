@@ -11,7 +11,7 @@ We are going to make a graphical version of a PokeMon card game following the ru
 
 http://www.wikihow.com/Play-With-Pokemon-Cards.
 
-TECHNOLOGIES:
+TECHNOLOGIES: <br><\br>
 Qt Creator using C++ and JavaScript.
 
 CONTRIBUTION GUIDLINES:
