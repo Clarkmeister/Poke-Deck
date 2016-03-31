@@ -1,22 +1,48 @@
 # PokéDeck
 
-PROJECT LOGO:
+CST 238 Project by Ryan Bell &amp; Arthur Clark
+Project Logo:
 
-DESCRIPTION:
-This is a game project for Spring term of 2016 for CST 238 at Oregon Institute of Technology.
+<b>Description:</b><br />
+A cross platform game for Spring term of 2016 for CST 238 at Oregon Institute of Technology. Allows users to play the standard Pokemon card game on iOS, Android and all major desktop platforms (Windows, OSX, Linux). Built using C++ and the Qt framework. 
 
-The group members involved in this project are Ryan Bell and Arthur Clark.
+<b>Contribution Guidelines:</b><br />
+For any future contributors to the Poké-Deck project, development changes are primarily made through dev branches which are denoted with: dev_contributor_task. Where the task is the current item that the developer is working on.
+When a task is deemed complete, the contribution should be reviewed prior to being merged with the master branch.
+
+<b>Contributors:</b><br />
+Current Developers.
+
+[Ignistorm](https://github.com/Ignistorm)<br />
+[Clarkmeister](https://github.com/Clarkmeister)<br />
 
 We are going to make a graphical version of a PokeMon card game following the rules and stipulations describe by:
 
 http://www.wikihow.com/Play-With-Pokemon-Cards.
 
-TECHNOLOGIES: <br><\br>
-Qt Creator using C++ and JavaScript.
-
-CONTRIBUTION GUIDLINES:
+Technologies: <br\>
+Qt Creator using C++ .
 
 
-CST 238 Project by Ryan Bell &amp; Arthur Clark
 
+<b>Installation:</b><br />
+1.  Install Qt 5.6 <br \>
+2.  Open project <br \>
+3.  Clean all, run qmake, build all, run. <br \>)
 
+<b>Bugs (Todo):</b><br />
+Placeholder.<br />
+Placeholder.<br />
+
+<b>Inspiration:</b><br />
+The inspiration for this game comes straight fromt he classic pokémon traading card game. It follows all the rules and standards setforth by the intial 150 pokemon release.
+
+<b>License:</b><br />
+None<br />
+Copyright (c) 2016 POKEMON PLACEHOLDER<br />
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br />
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br />
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br />
