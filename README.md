@@ -1,2 +1,2 @@
-# fluffy-chainsaw
+# pokéDeck
 CST 238 Project by Ryan Bell &amp; Arthur Clark
