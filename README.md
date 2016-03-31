@@ -21,12 +21,11 @@ Current Developers.
 We are going to make a graphical version of a PokeMon card game following the rules and stipulations describe by:
 
 
-<b>Technologies: <b\><br\>
+<b>Technologies: </b><br \>
 Qt Creator using C++ .
 
 
-
-<b>Installation:</b><br />
+<b>Installation:</b><br \>
 1.  Install Qt 5.6 <br \>
 2.  Open project <br \>
 3.  Clean all, run qmake, build all, run. <br \>
