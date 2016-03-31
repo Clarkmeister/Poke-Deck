@@ -5,6 +5,8 @@ Project Logo:
 
 <b>Description:</b><br />
 A cross platform game for Spring term of 2016 for CST 238 at Oregon Institute of Technology. Allows users to play the standard Pokemon card game on iOS, Android and all major desktop platforms (Windows, OSX, Linux). Built using C++ and the Qt framework. 
+<i>Note: A detailed explanation of the rules and gameplay can be found at-</i>
+http://www.wikihow.com/Play-With-Pokemon-Cards.
 
 <b>Contribution Guidelines:</b><br />
 For any future contributors to the Poké-Deck project, development changes are primarily made through dev branches which are denoted with: dev_contributor_task. Where the task is the current item that the developer is working on.
@@ -18,9 +20,8 @@ Current Developers.
 
 We are going to make a graphical version of a PokeMon card game following the rules and stipulations describe by:
 
-http://www.wikihow.com/Play-With-Pokemon-Cards.
 
-Technologies: <br\>
+<b>Technologies: <b\><br\>
 Qt Creator using C++ .
 
 
@@ -28,7 +29,7 @@ Qt Creator using C++ .
 <b>Installation:</b><br />
 1.  Install Qt 5.6 <br \>
 2.  Open project <br \>
-3.  Clean all, run qmake, build all, run. <br \>)
+3.  Clean all, run qmake, build all, run. <br \>
 
 <b>Bugs (Todo):</b><br />
 Placeholder.<br />
