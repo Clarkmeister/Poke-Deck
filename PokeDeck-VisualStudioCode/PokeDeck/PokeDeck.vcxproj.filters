@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Card">
+      <UniqueIdentifier>{62c6cdfe-e215-473e-a8e1-8f58354eac19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Card\Pokemon">
+      <UniqueIdentifier>{a4f2581e-e592-4d32-aa38-c29ab0b69c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Card\Trainer">
+      <UniqueIdentifier>{4bb69cbf-08a0-4232-b627-ae46d2e72b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Manager">
+      <UniqueIdentifier>{460d1dbd-a038-44c8-ac73-dc621f7ff061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Manager\Board">
+      <UniqueIdentifier>{8da79911-8cf1-4fef-bf37-8a55ad9306be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Card">
+      <UniqueIdentifier>{acb08f17-6f8d-4b2d-9fdb-b2bd7aa88843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Manager">
+      <UniqueIdentifier>{6644e3ca-af8f-4e15-a1e3-0e6323913744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Card\Trainer">
+      <UniqueIdentifier>{85237f76-5d00-4b8a-8e3e-34ad93871ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Card\Pokemon">
+      <UniqueIdentifier>{ad3044da-016a-4759-bce3-ff7178ef4005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Manager\Board">
+      <UniqueIdentifier>{4311b155-0dd6-4994-ac92-0a80096a52fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>Source Files\Card\Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Source Files\Card\Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Defense.cpp">
+      <Filter>Source Files\Card\Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainer.cpp">
+      <Filter>Source Files\Card\Trainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Stadium.cpp">
+      <Filter>Source Files\Card\Trainer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Game Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivePokemonArea.cpp">
+      <Filter>Source Files\Game Manager\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscardPileArea.cpp">
+      <Filter>Source Files\Game Manager\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckArea.cpp">
+      <Filter>Source Files\Game Manager\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="PrizeCardArea.cpp">
+      <Filter>Source Files\Game Manager\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Energy.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayBoard.cpp">
+      <Filter>Source Files\Game Manager\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="WinOrLoss.cpp">
+      <Filter>Source Files\Game Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="StadiumArea.cpp">
+      <Filter>Source Files\Game Manager\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewingAngle.cpp">
+      <Filter>Source Files\Game Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Attack.h">
+      <Filter>Header Files\Card\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Defense.h">
+      <Filter>Header Files\Card\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Energy.h">
+      <Filter>Header Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainer.h">
+      <Filter>Header Files\Card\Trainer</Filter>
+    </ClInclude>
+    <ClInclude Include="Stadium.h">
+      <Filter>Header Files\Card\Trainer</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="WinOrLoss.h">
+      <Filter>Header Files\Game Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewingAngle.h">
+      <Filter>Header Files\Game Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayBoard.h">
+      <Filter>Header Files\Game Manager\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="PrizeCardArea.h">
+      <Filter>Header Files\Game Manager\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivePokemonArea.h">
+      <Filter>Header Files\Game Manager\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscardPileArea.h">
+      <Filter>Header Files\Game Manager\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckArea.h">
+      <Filter>Header Files\Game Manager\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Game Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokemon.h">
+      <Filter>Header Files\Card\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="StadiumArea.h">
+      <Filter>Header Files\Game Manager\Board</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
