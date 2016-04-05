@@ -1,1 +1,36 @@
-
+1)
+Name: Chansey
+	HP: 120
+	Evolution Stage: 0
+	Next Evolution: Mulberssy
+	Type: C	Attack name: Scrunch
+	Attack Description: Flip a coin. If heads, prevant all damage done to chansey
+	Attack Damage: 0
+	Needs Custom Function: Chansey Scrunch
+	Attack Type 1: C
+	Attack Cost of Type 1:C
+	Attack name: Double-edge
+	Attack Description: Chansey does 80 damage to itself
+	Attack Damage: 
+	Needs Custom Function: Chansey Double-edge
+	Attack Type 1: C
+	Attack Cost of Type 1:C
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 1
+2)
+Name: Charizard
+	HP: 120
+	Evolution Stage: 2
+	Next Evolution: None
+	Pokemon Power: Energy Burn
+	PokePower Description: as often as you like during your tun (before you attack), you may turn all the Energey attached to Charizard into Fire Eneregey for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.
+	Type: f	Attack name: Fire Spin
+	Attack Description: Discard 2 Energy cards attached to Charizard in order to use this attack.
+	Attack Damage: 100
+	Needs Custom Function: Charizard Fire Spin
+	Attack Type 1: F
+	Attack Cost of Type 1:4
+	Weakness: W
+	Resistance: B-30
+	Retreat Cost: 3
