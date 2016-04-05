@@ -1,0 +1,36 @@
+Initialize engine version: 5.3.4f1 (fdbb5133b820)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     2103 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.056 seconds
+Platform assembly: C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Arthur\Desktop\UnityGames\PokéDeck\PokéDeck_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.506079 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 13fe8 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 21.290058 ms
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 182.
+Total: 2.045633 ms (FindLiveObjects: 0.246723 ms CreateObjectMapping: 0.010658 ms MarkObjects: 1.772461 ms  DeleteObjects: 0.015000 ms)
+
