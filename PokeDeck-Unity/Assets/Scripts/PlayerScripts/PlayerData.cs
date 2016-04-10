@@ -6,6 +6,7 @@ public class PlayerData : MonoBehaviour
     public GameObject player;
     string _trainerName;
     string _trainerFilePath;
+    string _playerColor;
 
     public string TrainerName
     {
@@ -18,5 +19,9 @@ public class PlayerData : MonoBehaviour
         set { _trainerFilePath = value; }
     }
 
-	
+    public string PlayerColor
+    {
+        get { return _playerColor; }
+        set { _playerColor = value; }
+    }
 }

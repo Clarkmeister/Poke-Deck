@@ -16,6 +16,8 @@ public class AttemptAccountCreation : MonoBehaviour
     public UnityEngine.UI.InputField CreatePasswordConfirm;
     public UnityEngine.UI.Text UserAlreadyExistsText;
     public UnityEngine.UI.Text NotMatchingPasswords;
+    public UnityEngine.UI.InputField TrainerNameLogin;
+    public UnityEngine.UI.InputField LoginPassword;
     public GameObject LoginScreen;
     public GameObject CreationScreen;
     // Use this for initialization
@@ -62,7 +64,8 @@ public class AttemptAccountCreation : MonoBehaviour
                 NotMatchingPasswords.gameObject.SetActive(false);
                 UserAlreadyExistsText.gameObject.SetActive(false);
                 LoginScreen.SetActive(true);
-                
+                LoginPassword.text = CreatePassword.text;
+                TrainerNameLogin.text = TrainerNameCreate.text;
             }
             else
             {

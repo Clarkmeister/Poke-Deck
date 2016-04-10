@@ -67,20 +67,26 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ChangeScene.cs" />
-    <Compile Include="Assets\Scripts\CursorHover.cs" />
-    <Compile Include="Assets\Scripts\DestroyThemeSong.cs" />
     <Compile Include="Assets\Scripts\DontDestroyScripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\DontDestroyScripts\DontDestroyPlayer.cs" />
-    <Compile Include="Assets\Scripts\ExitApplication.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\Rotate.cs" />
+    <Compile Include="Assets\Scripts\GeneralScripts\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\GeneralScripts\CursorHover.cs" />
+    <Compile Include="Assets\Scripts\GeneralScripts\DestroyThemeSong.cs" />
+    <Compile Include="Assets\Scripts\GeneralScripts\ExitApplication.cs" />
+    <Compile Include="Assets\Scripts\GeneralScripts\ToTransparent.cs" />
     <Compile Include="Assets\Scripts\LoginScreen\AttemptAccountCreation.cs" />
     <Compile Include="Assets\Scripts\LoginScreen\ChangeTextColor.cs" />
     <Compile Include="Assets\Scripts\LoginScreen\LoginInputGather.cs" />
-    <Compile Include="Assets\Scripts\PlayerData.cs" />
-    <Compile Include="Assets\Scripts\Rotate.cs" />
-    <Compile Include="Assets\Scripts\ToTransparent.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerData.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
