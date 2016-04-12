@@ -22,20 +22,20 @@ We are going to make a graphical version of a PokeMon card game following the ru
 
 
 <b>Technologies: </b><br \>
-Qt Creator using C++ .
+Unity using C# Scripts .
 
 
 <b>Installation:</b><br \>
-1.  Install Qt 5.6 <br \>
+1.  Install Unity 5.3 <br \>
 2.  Open project <br \>
-3.  Clean all, run qmake, build all, run. <br \>
+3.  Run PokeDeck.exe <br \>
 
 <b>Bugs (Todo):</b><br />
 Placeholder.<br />
 Placeholder.<br />
 
 <b>Inspiration:</b><br />
-The inspiration for this game comes straight fromt he classic pokémon traading card game. It follows all the rules and standards setforth by the intial 150 pokemon release.
+The inspiration for this game comes straight from the classic pokémon traading card game. It follows all the rules and standards setforth by the intial 150 pokemon release.
 
 <b>License:</b><br />
 None<br />
