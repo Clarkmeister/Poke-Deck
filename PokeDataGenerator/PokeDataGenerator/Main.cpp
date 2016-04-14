@@ -56,7 +56,7 @@ int main()
 		cin.ignore(cin.rdbuf()->in_avail());
 	
 		string response = "NULL";
-		while (response != "done" && response != "Yes" && response != "Y" && response != "y")
+		while (response != "done" && response != "Yes" && response != "Y" && response != "y" && response != "yes")
 		{
 			cardCount++;
 			Pokemon pokemon;
@@ -92,12 +92,12 @@ int main()
 			}
 			cout << "\nAnother Attack? (Yes, No): ";
 			getline(cin, anotherAttack);
-			if (anotherAttack != "No" && anotherAttack != "N" && anotherAttack != "n")
+			if (anotherAttack != "No" && anotherAttack != "N" && anotherAttack != "n" && anotherAttack != "no")
 			{
 				Attack2(pokemon);
 				cout << "\nAnother attack? (Yes, No): ";
 				getline(cin, anotherAttack);
-				if (anotherAttack != "No" && anotherAttack != "N" && anotherAttack != "n")
+				if (anotherAttack != "No" && anotherAttack != "N" && anotherAttack != "n" && anotherAttack != "no")
 				{
 					attackCount++;
 					Attack3(pokemon);
@@ -147,7 +147,7 @@ int main()
 					PokeData << "\tPokemon Power: " << pokemon.pokemonPower << endl;
 					PokeData << "\tPokePower Description: " << pokemon.pokemonPowerDesc << endl;
 				}
-				PokeData << "\tType: " << pokemon.poketype;
+				PokeData << "\tType: " << pokemon.poketype << endl;
 				for (int i = 0; i < 3; i++)
 				{
 					Attack temp;
@@ -167,16 +167,16 @@ int main()
 					if (temp.attackName != "None")
 					{
 						PokeData << "\tAttack name: " << temp.attackName << endl;
-						PokeData << "\tAttack Description: " << temp.attackDescription << endl;
-						PokeData << "\tAttack Damage: " << temp.attackDamage << endl;
-						PokeData << "\tNeeds Custom Function: " << temp.needsFunction << endl;
-						PokeData << "\tAttack Type 1: " << temp.attackType1 << endl;
-						PokeData << "\tAttack Cost of Type 1:" << temp.attackType1 << endl;
+						PokeData << "\t\tAttack Description: " << temp.attackDescription << endl;
+						PokeData << "\t\tAttack Damage: " << temp.attackDamage << endl;
+						PokeData << "\t\tNeeds Custom Function: " << temp.needsFunction << endl;
+						PokeData << "\t\tAttack Type 1: " << temp.attackType1 << endl;
+						PokeData << "\t\tAttack Cost of Type 1: " << temp.attackCost1 << endl;
 						if (temp.attackType2 != "None")
 
 						{
-							PokeData << "\tAttack Type 2: " << temp.attackType2 << endl;
-							PokeData << "\tAttack Cost of Type 2: " << temp.attackCost2 << endl;
+							PokeData << "\t\tAttack Type 2: " << temp.attackType2 << endl;
+							PokeData << "\t\tAttack Cost of Type 2: " << temp.attackCost2 << endl;
 						}
 					}
 				}
@@ -263,7 +263,8 @@ void Attack2(Pokemon & pokemon)
 	getline(cin, pokemon.attack2.attackName);
 	cout << "\tAttack 2 Description: ";
 	getline(cin, pokemon.attack2.attackDescription);
-	
+	cout << "\tAttack 2 Damage (0): ";
+	getline(cin, pokemon.attack2.attackDamage);
 	cout << "Does this require a custom script (Yes, No): ";
 	string customScript = "No";
 	getline(cin, customScript);
@@ -304,7 +305,9 @@ void Attack3(Pokemon & pokemon)
 	getline(cin, pokemon.attack3.attackName);
 	cout << "\tAttack 3 Description: ";
 	getline(cin, pokemon.attack3.attackDescription);
-	cout << "\tAttack 3 Type(Energy) 1: ";
+	cout << "\tAttack 1 Damage (0): ";
+	getline(cin, pokemon.attack1.attackDamage);
+	
 	cout << "Does this require a custom script (Yes, No): ";
 	string customScript = "No";
 	getline(cin, customScript);
@@ -319,6 +322,7 @@ void Attack3(Pokemon & pokemon)
 		pokemon.attack3.needsFunction = "Regular Function";
 	}
 
+	cout << "\tAttack 3 Type(Energy) 1: ";
 	getline(cin, pokemon.attack3.attackType1);
 	cout << "\tAttack 3 Cost 1: ";
 	getline(cin, pokemon.attack3.attackCost1);

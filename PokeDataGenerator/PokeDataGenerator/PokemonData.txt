@@ -1,36 +1,2815 @@
+
 1)
+Name: Alakazam
+	HP: 80
+	Evolution Stage: 2
+	Next Evolution: None
+	Pokemon Power: Damage Swap
+	PokePower Description: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokemon to another as long as you don't Knock Out that Pokemon. This power can't be used if Alakazam is Asleep, Confused, or Paralyzed.
+	Type: P
+	Attack name: Confuse Ray
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Confused.
+		Attack Damage: 30
+		Needs Custom Function: Alakazam Confuse Ray
+		Attack Type 1: P
+		Attack Cost of Type 1: 3
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 3
+2)
+Name: Blastoise
+	HP: 100
+	Evolution Stage: 2
+	Next Evolution: None
+	Pokemon Power: Rain Dance
+	PokePower Description: As often as you like during your turn (before your attack), you may attack 1 Water Energy card to 1 of your Water Pokemon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed
+	Type: W
+	Attack name: Hydro Pump
+		Attack Description: Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.
+		Attack Damage: 40+
+		Needs Custom Function: Blastoise Hydro Pump
+		Attack Type 1: W
+		Attack Cost of Type 1: 3
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 3
+3)
 Name: Chansey
 	HP: 120
 	Evolution Stage: 0
-	Next Evolution: Mulberssy
-	Type: C	Attack name: Scrunch
-	Attack Description: Flip a coin. If heads, prevant all damage done to chansey
-	Attack Damage: 0
-	Needs Custom Function: Chansey Scrunch
-	Attack Type 1: C
-	Attack Cost of Type 1:C
+	Next Evolution: Blissey
+	Type: C
+	Attack name: Scrunch
+		Attack Description: Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)
+		Attack Damage: 0
+		Needs Custom Function: Chansey Scrunch
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
 	Attack name: Double-edge
-	Attack Description: Chansey does 80 damage to itself
-	Attack Damage: 
-	Needs Custom Function: Chansey Double-edge
-	Attack Type 1: C
-	Attack Cost of Type 1:C
+		Attack Description: Chansey does 80 damage to itself.
+		Attack Damage: 80
+		Needs Custom Function: Chansey Double-edge
+		Attack Type 1: C
+		Attack Cost of Type 1: 4
 	Weakness: B
 	Resistance: P-30
 	Retreat Cost: 1
-2)
+4)
 Name: Charizard
 	HP: 120
 	Evolution Stage: 2
 	Next Evolution: None
 	Pokemon Power: Energy Burn
-	PokePower Description: as often as you like during your tun (before you attack), you may turn all the Energey attached to Charizard into Fire Eneregey for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.
-	Type: f	Attack name: Fire Spin
-	Attack Description: Discard 2 Energy cards attached to Charizard in order to use this attack.
-	Attack Damage: 100
-	Needs Custom Function: Charizard Fire Spin
-	Attack Type 1: F
-	Attack Cost of Type 1:4
+	PokePower Description: As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.
+	Type: F
+	Attack name: Fire Spin
+		Attack Description: Discard 2 Energy cards attached to Charizard in order to use this attack.
+		Attack Damage: 100
+		Needs Custom Function: Charizard Fire Spin
+		Attack Type 1: F
+		Attack Cost of Type 1: 4
 	Weakness: W
 	Resistance: B-30
 	Retreat Cost: 3
+5)
+Name: Clefable
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: C	
+	Attack name: Metronome
+		Attack Description: Choose 1 of the Defending pokemon attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokemon is, Clefable's type is still Colorless.)
+		Attack Damage: 0
+		Needs Custom Function: Clefable Metronome
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Minimize
+		Attack Description: All damage done by attacks to Clefable during your opponent;s next turn is reduced by 20 (after applying Weakness and Resistance.)
+		Attack Damage: 0
+		Needs Custom Function: Clefable Minimize
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 2
+6)
+Name: Clefairy
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Clefable
+	Type: C
+	Attack name: Sing
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Asleep.
+		Attack Damage: 0
+		Needs Custom Function: Clefairy Sing
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Metronome
+		Attack Description: Choose 1 of the Defending Pokemon attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokemon is, Clefairy's type is still Colorless.)
+		Attack Damage: 0
+		Needs Custom Function: Clefairy Metronome
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 1
+7)
+Name: Gyarados
+	HP: 100
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: W
+	Attack name: Dragon Rage
+		Attack Description: 
+		Attack Damage: 50
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1:W
+	Attack name: Bubblebeam
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 40
+		Needs Custom Function: Gyarados Bubblebeam
+		Attack Type 1: G
+		Attack Cost of Type 1: 4
+	Weakness: G
+	Resistance: B-30
+	Retreat Cost: 3
+8)
+Name: Hitmonchan
+	HP: 70
+	Evolution Stage: 0
+	Next Evolution: None
+	Type: B
+	Attack name: Jab
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 1
+	Attack name: Special Punch
+		Attack Description: 
+		Attack Damage: 40
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 2
+9)
+Name: Magneton
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: Magnezone
+	Type: L
+	Attack name: Thunder Wave
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 30
+		Needs Custom Function: Magneton Thunder Wave
+		Attack Type 1: L
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Selfdestruct
+		Attack Description: Does 20 damage to each Pokemon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokemon.) Magneton does 80 damage to itself.
+		Attack Damage: 80
+		Needs Custom Function: Magneton Selfdestruct
+		Attack Type 1: L
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: B
+	Resistance: None
+	Retreat Cost: 1
+10)
+Name: Mewtwo
+	HP: 60
+	Evolution Stage: 0
+	Next Evolution: None
+	Type: P
+	Attack name: Psychic
+		Attack Description: Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokemon.
+		Attack Damage: 10+
+		Needs Custom Function: Mewtwo Psychic
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Barrier
+		Attack Description: Discard 1 Psychic Energy card attached to Mewtwo in order to use this attack. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo.
+		Attack Damage: 0
+		Needs Custom Function: Mewtwo Barrier
+		Attack Type 1: P
+		Attack Cost of Type 1: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 3
+11)
+Name: Nidoking
+	HP: 90
+	Evolution Stage: 2
+	Next Evolution: None
+	Type: G
+	Attack name: Thrash
+		Attack Description: Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 1- damage to itself.
+		Attack Damage: 30+
+		Needs Custom Function: Nidoking Thrash
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Attack name: Toxic
+		Attack Description: The Defending Pokemon is now Poisoned. It now takes 2- Poision damage instead of 10 after each player's turn (even if it was already Poisoned).
+		Attack Damage: 20
+		Needs Custom Function: Nidoking Toxic
+		Attack Type 1: G
+		Attack Cost of Type 1: 3
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 3
+12)
+Name: Nidoqueen
+	HP: 90
+	Evolution Stage: 2
+	Next Evolution: None
+	Type: G
+	Attack name: Boyfriends
+		Attack Description: Does 20 damage plus 20 more damage for each Nidoking you have in play.
+		Attack Damage: 20+
+		Needs Custom Function: Regular Function
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Mega Punch
+		Attack Description: 
+		Attack Damage: 50
+		Needs Custom Function: Regular Function
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 3
+13)
+Name: Ninetales
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: F
+	Attack name: Lure
+		Attack Description: If your opponent has any Benched Pokemon, choose 1 of them and switch it with the Defending Pokemon.
+		Attack Damage: 0
+		Needs Custom Function: Ninetales Lure
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Fire Blast
+		Attack Description: Discard 1 Fire Energy card attached to Ninetales in order to use this atack.
+		Attack Damage: 80
+		Needs Custom Function: Ninetales Fire Blast
+		Attack Type 1: F
+		Attack Cost of Type 1: 4
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 1
+14)
+Name: Pidgeot
+	HP: 80
+	Evolution Stage: C
+	Next Evolution: None
+	Type: C
+	Attack name: Wing Attack
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Hurricane
+		Attack Description: Unless this attack Knocks Out the Defending Pokemon, return the Defending Pokemon and all cards attached to it to your opponent's hand.
+		Attack Damage: 30
+		Needs Custom Function: Pidgeot Hurricane
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: L
+	Resistance: B-30
+	Retreat Cost: 0
+15)
+Name: Poliwrath
+	HP: 90
+	Evolution Stage: 2
+	Next Evolution: None
+	Type: W
+	Attack name: Water Gun
+		Attack Description: Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.
+		Attack Damage: 30+
+		Needs Custom Function: Poliwrath Water Gun
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Whirlpool
+		Attack Description: If the Defendig Pokemon has any Energy cards attached to it, choose 1 of them and discard it.
+		Attack Damage: 40
+		Needs Custom Function: Poliwrath Whirlpool
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: G
+	Resistance: None
+	Retreat Cost: 3
+16)
+Name: Raichu
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: L
+	Attack name: Agility
+		Attack Description: Flipa a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damgae, done to Raichu.
+		Attack Damage: 20
+		Needs Custom Function: Raichu Agility
+		Attack Type 1: L
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Attack name: Thunder
+		Attack Description: Flip a coin. If tails, Raichu does 30 damage to itself.
+		Attack Damage: 60
+		Needs Custom Function: Raichu Thunder
+		Attack Type 1: L
+		Attack Cost of Type 1: 3
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: B
+	Resistance: None
+	Retreat Cost: 1
+17)
+Name: Scyther
+	HP: 70
+	Evolution Stage: 0
+	Next Evolution: Scizor
+	Type: G
+	Attack name: Swords Dance
+		Attack Description: During your next turn, Scyther's Slash attack's base damage is 60 instead of 30
+		Attack Damage: 0
+		Needs Custom Function: Scyther Swords Dance
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Slash
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: F
+	Resistance: B-30
+	Retreat Cost: 0
+18)
+Name: Venusaur
+	HP: 100
+	Evolution Stage: 2
+	Next Evolution: None
+	Pokemon Power: Energy Trans
+	PokePower Description: As often as you like during your turn (before your attack), you may take 1 Grass Energy card attached to 1 of your Pokemon and attach it to a diffrent one. This power can't be used if Venusaur is Asleep, Confused, or Pralyzed.
+	Type: G
+	Attack name: Solarbeam
+		Attack Description: 
+		Attack Damage: 60
+		Needs Custom Function: Regular Function
+		Attack Type 1: G
+		Attack Cost of Type 1: 4
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 2
+19)
+Name: Wigglytuff
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: C
+	Attack name: Lullaby
+		Attack Description: The Defending Pokemon is now Asleep.
+		Attack Damage: 0
+		Needs Custom Function: Wigglytuff Lullaby
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Do the Wave
+		Attack Description: Does 10 damage plus 10 more damage for each of your Benched Pokemon.
+		Attack Damage: 10+
+		Needs Custom Function: Wigglytuff Do the Wave
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 2
+20)
+Name: Zapdos
+	HP: 90
+	Evolution Stage: 0
+	Next Evolution: None
+	Type: L
+	Attack name: Thunder
+		Attack Description: Flip a coin. If tails, Zapdos does 30 damage to itself.
+		Attack Damage: 60
+		Needs Custom Function: Zapdos Thunder
+		Attack Type 1: L
+		Attack Cost of Type 1: 3
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Thunderbolt
+		Attack Description: Discard all Energy cards attached to Zapdos in order to use this attack.
+		Attack Damage: 100
+		Needs Custom Function: Zapdos Thunderbolt
+		Attack Type 1: L
+		Attack Cost of Type 1: 4
+	Weakness: None
+	Resistance: B-30
+	Retreat Cost: 3
+21)
+Name: Beedrill
+	HP: 80
+	Evolution Stage: 2
+	Next Evolution: None
+	Type: G
+	Attack name: Twineedle
+		Attack Description: Flip 2 coins. This attack does 30 damage times the number of heads.
+		Attack Damage: 30x
+		Needs Custom Function: Beedrill Twineedle
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Attack name: Poision String
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+		Attack Damage: 40
+		Needs Custom Function: Beedrill Poision String
+		Attack Type 1: G
+		Attack Cost of Type 1: 3
+	Weakness: F
+	Resistance: B-30
+	Retreat Cost: 0
+22)
+Name: Dragonair
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: Dragonite
+	Type: C
+	Attack name: Slam
+		Attack Description: Flip 2 coins. This attack does 30 damage times the number of heads.
+		Attack Damage: 30x
+		Needs Custom Function: Dragonair Slam
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Attack name: Hyper Beam
+		Attack Description: If the Defending Pokemon has any Energy cards attached to it, chose 1 of them and discard it.
+		Attack Damage: 20
+		Needs Custom Function: Dragonair Hyper Beam
+		Attack Type 1: C
+		Attack Cost of Type 1: 4
+	Weakness: None
+	Resistance: P-30
+	Retreat Cost: 2
+23)
+Name: Dugtrio
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: B
+	Attack name: Slash
+		Attack Description: 
+		Attack Damage: 40
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Earthquake
+		Attack Description: Does 10 damage to each of your own Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+		Attack Damage: 70
+		Needs Custom Function: Dugtrio Earthquake
+		Attack Type 1: B
+		Attack Cost of Type 1: 4
+	Weakness: G
+	Resistance: L-30
+	Retreat Cost: 2
+24)
+Name: Electabuzz
+	HP: 70
+	Evolution Stage: 0
+	Next Evolution: Electivire
+	Type: L
+	Attack name: Thundershock
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 10
+		Needs Custom Function: Electabuzz Thundershock
+		Attack Type 1: L
+		Attack Cost of Type 1: 1
+	Attack name: Thunderpunch
+		Attack Description: Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself.
+		Attack Damage: 30+
+		Needs Custom Function: Electabuzz Thunderpunch
+		Attack Type 1: L
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: B
+	Resistance: None
+	Retreat Cost: 2
+25)
+Name: Electrode
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: None
+	Pokemon Power: Buzzap
+	PokePower Description: At any time during your turn (beofre you attack), you may Knock Out Electrode and attach it to 1 of your other Pokemon. If you do, choose a type of Energy. Electrode is now an Energy card of that type (instead of a Pokemon) that provides 2 energy. This power can't be used if Electrode is Asleep, Confused, or Paralyzed.
+	Type: L
+	Attack name: Electric Shock
+		Attack Description: Flip a coin. If tails, Electrode does 10 damage to itself.
+		Attack Damage: 50
+		Needs Custom Function: Electrode Electric Shock
+		Attack Type 1: L
+		Attack Cost of Type 1: 3
+	Weakness: B
+	Resistance: None
+	Retreat Cost: 1
+26)
+Name: Kangaskhan
+	HP: 90
+	Evolution Stage: 0
+	Next Evolution: None
+	Type: C
+	Attack name: Fetch
+		Attack Description: Draw a card.
+		Attack Damage: 0
+		Needs Custom Function: Kangaskhan Fetch
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Coment Puch
+		Attack Description: Flip 4 coins. This attack does 20 damage times the number of heads.
+		Attack Damage: 20x
+		Needs Custom Function: Kangaskhan Coment Puch
+		Attack Type 1: C
+		Attack Cost of Type 1: 4
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 3
+27)
+Name: Mr. Mime
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: None
+	Pokemon Power: Invisible Wall
+	PokePower Description: Whenever an attack (including your own) does 30 or more damage to Mr.Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power stops working while Mr. Mime is Asleep, Confused, or Paralyzed.
+	Type: P
+	Attack name: Meditate
+		Attack Description: Does 10 damage plus 10 more damage for each damage counter on the Defending Pokemon.
+		Attack Damage: 10+
+		Needs Custom Function: Mr. Mime Meditate
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+28)
+Name: Pidgeotto
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: Pidgeot
+	Type: C
+	Attack name: Whirlwind
+		Attack Description: If your opponent has any Benched Pokemon, he or she chooses 1 of them and switches it with the Defending Pokemon. (Do the damage before switching the Pokemon.)
+		Attack Damage: 20
+		Needs Custom Function: Pidgeotto Whirlwind
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Mirror Move
+		Attack Description: If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokemon.
+		Attack Damage: 0
+		Needs Custom Function: Pidgeotto Mirror Move
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: L
+	Resistance: F-30
+	Retreat Cost: 1
+29)
+Name: Pinsir
+	HP: 60
+	Evolution Stage: 0
+	Next Evolution: None
+	Type: G
+	Attack name: Irongrip
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 20
+		Needs Custom Function: Pinsir Irongrip
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Attack name: Guillotine
+		Attack Description: 
+		Attack Damage: 50
+		Needs Custom Function: Regular Function
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+30)
+Name: Snorlax
+	HP: 90
+	Evolution Stage: 0
+	Next Evolution: None
+	Pokemon Power: Thick Skinned
+	PokePower Description: Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power stops working while Snorlax is already Asleep, Confused, or Paralyzed.
+	Type: C
+	Attack name: Body Slam
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 30
+		Needs Custom Function: Snorlax Body Slam
+		Attack Type 1: C
+		Attack Cost of Type 1: 4
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 4
+31)
+Name: Venomoth
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Pokemon Power: Shift
+	PokePower Description: Once during your turn (before you attack), you may change the type of Venomoth to the type of any other Pokemon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed.
+	Type: G
+	Attack name: Venom Powder
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Confused and Poisoned.
+		Attack Damage: 10
+		Needs Custom Function: Venomoth Venom Powder
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: B-30
+	Retreat Cost: 0
+32)
+Name: Victreebel
+	HP: 80
+	Evolution Stage: 2
+	Next Evolution: None
+	Type: G
+	Attack name: Lure
+		Attack Description: If your opponent has any Benched Pokemon, choose 1 of them and switch it with his or her Active Pokemon.
+		Attack Damage: 0
+		Needs Custom Function: Victreebel Lure
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Acid
+		Attack Description: Flip a coin. If heads te Defending Pokemon can't retreat during your opponent's next turn.
+		Attack Damage: 20
+		Needs Custom Function: Victreebel Acid
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 2
+33)
+Name: Arcanine
+	HP: 100
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: F
+	Attack name: Flamethrower
+		Attack Description: Discard 1 Fire Energy card attached to Arcanine in order to use this attack.
+		Attack Damage: 50
+		Needs Custom Function: Arcanine Flamethrower
+		Attack Type 1: F
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Take Down
+		Attack Description: Arcanine does 30 damage to itself.
+		Attack Damage: 80
+		Needs Custom Function: Arcanine Take Down
+		Attack Type 1: F
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 3
+34)
+Name: Butterfree
+	HP: 70
+	Evolution Stage: 2
+	Next Evolution: None
+	Type: G
+	Attack name: Whirlwind
+		Attack Description: If your oppet has any Benched Pokemon, he or she choooses 1 of them and switches it with the Defending Pokemon. (Do the damage before switching the Pokemon.)
+		Attack Damage: 20
+		Needs Custom Function: Butterfree Whirlwind
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Mega Drain
+		Attack Description: Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokemon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Butterfree has fewer damage counters than that, remove all of them.
+		Attack Damage: 40
+		Needs Custom Function: Butterfree Mega Drain
+		Attack Type 1: G
+		Attack Cost of Type 1: 4
+	Weakness: F
+	Resistance: F-30
+	Retreat Cost: 0
+35)
+Name: Charmeleon
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: Charizard
+	Type: F
+	Attack name: Slash
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Attack name: Flamethrower
+		Attack Description: Discard 1 Fire Energy card attached to Charmeleon in order to use this attack.
+		Attack Damage: 50
+		Needs Custom Function: Charmeleon Flamethrower
+		Attack Type 1: F
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 1
+36)
+Name: Dewgong
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: W
+	Attack name: Aurora Beam
+		Attack Description: 
+		Attack Damage: 50
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Ice Beam
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Paralyzed.
+		Attack Damage: 30
+		Needs Custom Function: Dewgong Ice Beam
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 3
+37)
+Name: Dodrio
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Pokemon Power: Retreat Aid
+	PokePower Description: As long as Dodrio is Benched, pay 1 less Energy to retreat your Active Pokemon.
+	Type: C
+	Attack name: Rage
+		Attack Description: Does 10 damage plus 10 more damage for each damage counter on Dodrio.
+		Attack Damage: 10+
+		Needs Custom Function: Dodrio Rage
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: L
+	Resistance: B-30
+	Retreat Cost: 0
+38)
+Name: Dratini
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Dragonair
+	Type: C
+	Attack name: Pound
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Weakness: None
+	Resistance: P-30
+	Retreat Cost: 1
+39)
+Name: Exeggutor
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: G
+	Attack name: Teleport
+		Attack Description: Switch Exeggutor with 1 of your Beneched Pokemon.
+		Attack Damage: 0
+		Needs Custom Function: Exeggutor Teleport
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+	Attack name: Big Eggsplosion
+		Attack Description: Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.
+		Attack Damage: 20x
+		Needs Custom Function: Exeggutor Big Eggsplosion
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 3
+40)
+Name: Farfetch'd
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: None
+	Type: C
+	Attack name: Leek Slap
+		Attack Description: Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again).
+		Attack Damage: 30
+		Needs Custom Function: Farfetch'd Leek Slap
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Pot Smash
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: L
+	Resistance: B-30
+	Retreat Cost: 1
+41)
+Name: Fearow
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: C
+	Attack name: Agility
+		Attack Description: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damge, done to Fearow.
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Attack name: Drill Peck
+		Attack Description: 
+		Attack Damage: 40
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 4
+	Weakness: L
+	Resistance: B-30
+	Retreat Cost: 0
+42)
+Name: Growlithe
+	HP: 60
+	Evolution Stage: 0
+	Next Evolution: Arcanine
+	Type: F
+	Attack name: Flare
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: F
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 1
+43)
+Name: Haunter
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: Gengar
+	Type: P
+	Attack name: Hypnosis
+		Attack Description: The Defending Pok‚mon is now Asleep.
+		Attack Damage: 0
+		Needs Custom Function: Haunter Hypnosis
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+	Attack name: Dream Eater
+		Attack Description: You can't use this attack unless the Defending Pok‚mon is Asleep.
+		Attack Damage: 50
+		Needs Custom Function: Haunter Dream Eater
+		Attack Type 1: P
+		Attack Cost of Type 1: 2
+	Weakness: None
+	Resistance: B-30
+	Retreat Cost: 1
+44)
+Name: Ivysaur
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: Venusaur
+	Type: G
+	Attack name: Vine Whip
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Attack name: Posionpowder
+		Attack Description: The Defending Pok‚mon is now Poisoned.
+		Attack Damage: 20
+		Needs Custom Function: Ivysaur Posionpowder
+		Attack Type 1: G
+		Attack Cost of Type 1: 3
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+45)
+Name: Jynx
+	HP: 70
+	Evolution Stage: 0
+	Next Evolution: None
+	Type: P
+	Attack name: Doubleslap
+		Attack Description: Flip 2 coins. This attack does 10 damage times the number of heads.
+		Attack Damage: 10x
+		Needs Custom Function: Jynx Doubleslap
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+	Attack name: Meditate
+		Attack Description: Does 20 damage plus 10 more damage for each damage counter on the Defending Pok‚mon.
+		Attack Damage: 20+
+		Needs Custom Function: Jynx Meditate
+		Attack Type 1: P
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 2
+46)
+Name: Kababra
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: Alakazam
+	Type: P
+	Attack name: Recover
+		Attack Description: Discard 1 Psychic Energy card attached to Kadabra in order to use this attack. Remove all damage counters from Kadabra.
+		Attack Damage: 0
+		Needs Custom Function: Kababra Recover
+		Attack Type 1: P
+		Attack Cost of Type 1: 2
+	Attack name: Supr Psy
+		Attack Description: 
+		Attack Damage: 50
+		Needs Custom Function: Regular Function
+		Attack Type 1: P
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 3
+47)
+Name: Kakuna
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: Beedrill
+	Type: G
+	Attack name: Stiffen
+		Attack Description: Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)
+		Attack Damage: 0
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Poisonpowder
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Poisoned.
+		Attack Damage: 20
+		Needs Custom Function: Kakuna Poisonpowder
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 2
+48)
+Name: Lickitung
+	HP: 90
+	Evolution Stage: 0
+	Next Evolution: Lickilciky
+	Type: C
+	Attack name: Tongue Wrap
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 10
+		Needs Custom Function: Lickitung Tongue Wrap
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Supersonic
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Confused.
+		Attack Damage: 0
+		Needs Custom Function: Lickitung Supersonic
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 3
+49)
+Name: Machoke
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: Machamp
+	Type: B
+	Attack name: Karate Chop
+		Attack Description: Does 50 damage minus 10 damage for each damage counter on Machoke.
+		Attack Damage: 50-
+		Needs Custom Function: Machoke Karate Chop
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Submission
+		Attack Description: Machoke does 20 damage to itself.
+		Attack Damage: 60
+		Needs Custom Function: Machoke Submission
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 3
+50)
+Name: Magikarp
+	HP: 30
+	Evolution Stage: 0
+	Next Evolution: Gyarados
+	Type: W
+	Attack name: Tackle
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Flail
+		Attack Description: Does 10 damage times the number of damage counters on Magikarp.
+		Attack Damage: 10x
+		Needs Custom Function: Magikarp Flail
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+51)
+Name: Magmar
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Magmortar
+	Type: F
+	Attack name: Fire Punch
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: F
+		Attack Cost of Type 1: 2
+	Attack name: Flamethrower
+		Attack Description: Discard 1 Fire Energy card attached to Magmar in order to use this attack.
+		Attack Damage: 50
+		Needs Custom Function: Magmar Flamethrower
+		Attack Type 1: F
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 2
+52)
+Name: Marowak
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: B
+	Attack name: Bonemerang
+		Attack Description: Flip 2 coins. This attack does 30 damage times the number of heads.
+		Attack Damage: 30x
+		Needs Custom Function: Marowak Bonemerang
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+	Attack name: Call for Friend
+		Attack Description: Search your deck for a Fighting basic Pokemon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+		Attack Damage: 0
+		Needs Custom Function: Marowak Call for Friend
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: G
+	Resistance: L-30
+	Retreat Cost: 1
+53)
+Name: Nidorina
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: Nidoqueen
+	Type: G
+	Attack name: Supersonic
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Confused.
+		Attack Damage: 0
+		Needs Custom Function: Nidorina Supersonic
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Double Kick
+		Attack Description: Flip 2 coins. This attack does 30 damage times the number of heads.
+		Attack Damage: 30x
+		Needs Custom Function: Nidorina Double Kick
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+54)
+Name: Nidorino
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: Nidoking
+	Type: G
+	Attack name: Double Kick
+		Attack Description: Flip 2 coins. This attack does 30 damage times the number of heads.
+		Attack Damage: 30x
+		Needs Custom Function: Nidorino Double Kick
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Attack name: Horn Drill
+		Attack Description: 
+		Attack Damage: 50
+		Needs Custom Function: Regular Function
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+55)
+Name: Parasect
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: G
+	Attack name: Spore
+		Attack Description: The Defending Pokemon is now Asleep.
+		Attack Damage: 0
+		Needs Custom Function: Parasect Spore
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Attack name: Slash
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+56)
+Name: Persian
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: C
+	Attack name: Scratch
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Pounce
+		Attack Description: If the Defending Pokemon attacks Persian during your opponent's next turn, any damage done by the attacks is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokemon ends this effect).
+		Attack Damage: 30
+		Needs Custom Function: Persian Pounce
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 0
+57)
+Name: Poliwhirl
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: Poliwrath
+	Type: W
+	Attack name: Amnesia
+		Attack Description: Choose 1 of the Defending Pok‚mon's attacks. That Pok‚mon can't use that attack during your opponent's next turn.
+		Attack Damage: 0
+		Needs Custom Function: Poliwhirl Amnesia
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+	Attack name: Doubleslap
+		Attack Description: Flip 2 coins. This attack does 30 damage times the number of heads.
+		Attack Damage: 30x
+		Needs Custom Function: Poliwhirl Doubleslap
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 1
+58)
+Name: Raticate
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: C
+	Attack name: Bite
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Super Fang
+		Attack Description: Does damage to the Defending Pok‚mon equal to half the Defending Pokemon's remaining HP (rounded up to the nearest 10).
+		Attack Damage: ?
+		Needs Custom Function: Raticate Super Fang
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 1
+59)
+Name: Rhydon
+	HP: 100
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: B
+	Attack name: Horn Attack
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Attack name: Ram
+		Attack Description: Rhydon does 20 damage to itslef. If your opponent has any Beneched Pokemon, he or she chooses 1 of them and switches it with the Defending Pokemon. (Do the damage before switching the Pokemon. Switch the Pokemon even if Rhydon is knocked out.)
+		Attack Damage: 50
+		Needs Custom Function: Rhydon Ram
+		Attack Type 1: B
+		Attack Cost of Type 1: 4
+	Weakness: G
+	Resistance: L-30
+	Retreat Cost: 3
+60)
+Name: Seaking
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: W
+	Attack name: Horn Attack
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Attack name: Waterfall
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+61)
+Name: Seel
+	HP: 60
+	Evolution Stage: 0
+	Next Evolution: Dewong
+	Type: W
+	Attack name: Headbutt
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+62)
+Name: Tauros
+	HP: 60
+	Evolution Stage: 0
+	Next Evolution: None
+	Type: C
+	Attack name: Stomp
+		Attack Description: Flip a coin, If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.
+		Attack Damage: 20+
+		Needs Custom Function: Tauros Stomp
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Rampage
+		Attack Description: Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin, if tails Tauros is now Confused (after doing damage).
+		Attack Damage: 20+
+		Needs Custom Function: Tauros Rampage
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 2
+63)
+Name: Wartortle
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: Blastoise
+	Type: W
+	Attack name: Withdraw
+		Attack Description: Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)
+		Attack Damage: 0
+		Needs Custom Function: Wartortle Withdraw
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Bite
+		Attack Description: 
+		Attack Damage: 40
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+64)
+Name: Weepinbell
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: Victrebel
+	Type: G
+	Attack name: Posionpowder
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+		Attack Damage: 10
+		Needs Custom Function: Weepinbell Posionpowder
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Razor Leaf
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+65)
+Name: Abra
+	HP: 30
+	Evolution Stage: 0
+	Next Evolution: Kadabra
+	Type: P
+	Attack name: Psyshock
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 10
+		Needs Custom Function: Abra Psyshock
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 0
+66)
+Name: Bellsprout
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Weepinbell
+	Type: G
+	Attack name: Vine Whip
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Call for Family
+		Attack Description: Search your deck for a basic Pokemon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+		Attack Damage: 0
+		Needs Custom Function: Bellsprout Call for Family
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+67)
+Name: Bulbasaur
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Ivysaur
+	Type: G
+	Attack name: Leech Seed
+		Attack Description: Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.
+		Attack Damage: 20
+		Needs Custom Function: Bulbasaur Leech Seed
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+68)
+Name: Caterpie
+	HP: 10
+	Evolution Stage: 0
+	Next Evolution: Metapod
+	Type: G
+	Attack name: String Shot
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Paralyzed.
+		Attack Damage: 10
+		Needs Custom Function: Caterpie String Shot
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+69)
+Name: Charmander
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Charmeleon
+	Type: F
+	Attack name: Scratch
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Ember
+		Attack Description: Discard 1 Fire Energy card attached to Charmander in order to use this attack.
+		Attack Damage: 30
+		Needs Custom Function: Charmander Ember
+		Attack Type 1: F
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 1
+70)
+Name: Cubone
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Marowak
+	Type: B
+	Attack name: Snivel
+		Attack Description: If the Defending Pokemon attacks Cubone during your opponent's next turn, any damage done by the attacks is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokemon ends this effect.)
+		Attack Damage: 0
+		Needs Custom Function: Cubone Snivel
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Rage
+		Attack Description: Does 10 damage plus 10 more damage for each damage counter on Cubone.
+		Attack Damage: 10+
+		Needs Custom Function: Cubone Rage
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+	Weakness: G
+	Resistance: L-30
+	Retreat Cost: 1
+71)
+Name: Diglett
+	HP: 30
+	Evolution Stage: 0
+	Next Evolution: Dugtrio
+	Type: B
+	Attack name: Dig
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 1
+	Attack name: Mud Slap
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+	Weakness: G
+	Resistance: L-30
+	Retreat Cost: 0
+72)
+Name: Doduo
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Dodrio
+	Type: C
+	Attack name: Fury Attack
+		Attack Description: Flip 2 coins. This attack does 10 damage times the number of heads.
+		Attack Damage: 10x
+		Needs Custom Function: Doduo Fury Attack
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Weakness: L
+	Resistance: B-30
+	Retreat Cost: 0
+73)
+Name: Drowzee
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Hypno
+	Type: P
+	Attack name: Pound
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Confuse Ray
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Confused.
+		Attack Damage: 10
+		Needs Custom Function: Drowzee Confuse Ray
+		Attack Type 1: P
+		Attack Cost of Type 1: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 0
+74)
+Name: Exeggcute
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Exeggutor
+	Type: G
+	Attack name: Hypnosis
+		Attack Description: The Defending Pokemon is now Asleep.
+		Attack Damage: 0
+		Needs Custom Function: Exeggcute Hypnosis
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+	Attack name: Leech Seed
+		Attack Description: Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute.
+		Attack Damage: 20
+		Needs Custom Function: Exeggcute Leech Seed
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+75)
+Name: Gastly
+	HP: 30
+	Evolution Stage: 0
+	Next Evolution: Haunter
+	Type: P
+	Attack name: Sleeping Gas
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Asleep.
+		Attack Damage: 0
+		Needs Custom Function: Gastly Sleeping Gas
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+	Attack name: Destiny Bond
+		Attack Description: Discard 1 Psychic Energy card attached to Gastly in order to use this attack. If a Pokemon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokemon.
+		Attack Damage: 0
+		Needs Custom Function: Gastly Destiny Bond
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: None
+	Resistance: B-30
+	Retreat Cost: 0
+76)
+Name: Goldeen
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Seaking
+	Type: W
+	Attack name: Horn Attack
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 0
+77)
+Name: Jigglypuff
+	HP: 60
+	Evolution Stage: 0
+	Next Evolution: Wigglytuff
+	Type: C
+	Attack name: Lullaby
+		Attack Description: The Defending Pokemon is now Asleep.
+		Attack Damage: 0
+		Needs Custom Function: Jigglypuff Lullaby
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Pound
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 1
+78)
+Name: Machop
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Machoke
+	Type: B
+	Attack name: Low Kick
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+79)
+Name: Magnemite
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Magneton
+	Type: L
+	Attack name: Thunder Wave
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Paralyzed.
+		Attack Damage: 10
+		Needs Custom Function: Magnemite Thunder Wave
+		Attack Type 1: L
+		Attack Cost of Type 1: 1
+	Attack name: Selfdestruct
+		Attack Description: Does 10 damage to each Pok‚mon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok‚mon.) Magnemite does 40 damage to itself.
+		Attack Damage: 40
+		Needs Custom Function: Magnemite Selfdestruct
+		Attack Type 1: L
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: B
+	Resistance: None
+	Retreat Cost: 1
+80)
+Name: Meowth
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Persian
+	Type: C
+	Attack name: Pay Day
+		Attack Description: Flip a coin. If heads, draw a card.
+		Attack Damage: 10
+		Needs Custom Function: Meowth Pay Day
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 1
+81)
+Name: Metapod
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: Butterfree
+	Type: G
+	Attack name: Stiffen
+		Attack Description: Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)
+		Attack Damage: 0
+		Needs Custom Function: Metapod Stiffen
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Stun Spore
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Paralyzed.
+		Attack Damage: 20
+		Needs Custom Function: Metapod Stun Spore
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 2
+82)
+Name: Nidoran
+	HP: 60
+	Evolution Stage: 0
+	Next Evolution: Nidorino
+	Type: G
+	Attack name: Fury Swipes
+		Attack Description: Flip 3 coins. This attack does 10 damage times the number of heads.
+		Attack Damage: 10x
+		Needs Custom Function: Nidoran Fury Swipes
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Call for Family
+		Attack Description: Search your deck for a Basic Pokemon named Nidoran male or Nidoran female and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench
+		Attack Damage: is full.)
+		Needs Custom Function: Nidoran Call for Family
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+83)
+Name: Nidoran
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Nidorino
+	Type: G
+	Attack name: Horn Hazard
+		Attack Description: Flip a coin. If tails, this attack does nothing.
+		Attack Damage: 30
+		Needs Custom Function: Nidoran Horn Hazard
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+84)
+Name: Onix
+	HP: 90
+	Evolution Stage: 0
+	Next Evolution: Steelix
+	Type: B
+	Attack name: Rock Throw
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 1
+	Attack name: Harden
+		Attack Description: During your opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)
+		Attack Damage: 0
+		Needs Custom Function: Onix Harden
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+	Weakness: G
+	Resistance: None
+	Retreat Cost: 3
+85)
+Name: Paras
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Parasect
+	Type: G
+	Attack name: Scratch
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Spore
+		Attack Description: The Defending Pokemon is now Asleep.
+		Attack Damage: 0
+		Needs Custom Function: Paras Spore
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+86)
+Name: Pidgey
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Pidgeotto
+	Type: C
+	Attack name: Whirlwind
+		Attack Description: If your opponent has any Benched Pokemon, he or she chooses 1 of them and switches it with the Defending Pokemon. (Do the damage before switching the Pokemon.)
+		Attack Damage: 10
+		Needs Custom Function: Pidgey Whirlwind
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Weakness: L
+	Resistance: B-30
+	Retreat Cost: 1
+87)
+Name: Pikachu
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Raichu
+	Type: L
+	Attack name: Gnaw
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Thunder Jolt
+		Attack Description: Flip a coin. If tails, Pikachu does 10 damage to itself.
+		Attack Damage: 30
+		Needs Custom Function: Pikachu Thunder Jolt
+		Attack Type 1: L
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: B
+	Resistance: None
+	Retreat Cost: 1
+88)
+Name: Poliwag
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Poliwhirl
+	Type: W
+	Attack name: Water Gun
+		Attack Description: Does 10 damage plus 10 more damage for each Water Energy attached to Poliwag but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd don't count.
+		Attack Damage: 10+
+		Needs Custom Function: Poliwag Water Gun
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Weakness: G
+	Resistance: None
+	Retreat Cost: 1
+89)
+Name: Ratta
+	HP: 30
+	Evolution Stage: 9
+	Next Evolution: Raticate
+	Type: C
+	Attack name: Bite
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 0
+90)
+Name: Rhyhorn
+	HP: 70
+	Evolution Stage: 0
+	Next Evolution: Rhydon
+	Type: B
+	Attack name: Leer
+		Attack Description: Flip a coin. If heads, the Defending Pokemon can't attack Rhydorn during your opponent's next turn. (Benching your Pokemon ends this effect.)
+		Attack Damage: 0
+		Needs Custom Function: Rhyhorn Leer
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Horn Attack
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: G
+	Resistance: L-30
+	Retreat Cost: 3
+91)
+Name: Sandshrew
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Sandslash
+	Type: B
+	Attack name: Sand-attack
+		Attack Description: If the Defending Pokemon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+		Attack Damage: 10
+		Needs Custom Function: Sandshrew Sand-attack
+		Attack Type 1: B
+		Attack Cost of Type 1: 1
+	Weakness: G
+	Resistance: L-30
+	Retreat Cost: 1
+92)
+Name: Spearow
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Fearow
+	Type: C
+	Attack name: Peck
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Mirror Move
+		Attack Description: If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokemon.
+		Attack Damage: 0
+		Needs Custom Function: Spearow Mirror Move
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Weakness: L
+	Resistance: B-30
+	Retreat Cost: 0
+93)
+Name: Squirtle
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Wartortle
+	Type: W
+	Attack name: Bubble
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Paralyzed.
+		Attack Damage: 10
+		Needs Custom Function: Squirtle Bubble
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Attack name: Withdraw
+		Attack Description: Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of opponent's attacks still happen.)
+		Attack Damage: 0
+		Needs Custom Function: Squirtle Withdraw
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+94)
+Name: Starmie
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: W
+	Attack name: Recover
+		Attack Description: Discard 1 Water Energy card attached to Starmie in order to use this attack. Remove all damage counters from Starmie.
+		Attack Damage: 0
+		Needs Custom Function: Starmie Recover
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+	Attack name: Star Freeze
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Paralyzed.
+		Attack Damage: 20
+		Needs Custom Function: Starmie Star Freeze
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+95)
+Name: Staryu
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Starmie
+	Type: W
+	Attack name: Slap
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+96)
+Name: Tangela
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Tangrowth
+	Type: G
+	Attack name: Blind
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 20
+		Needs Custom Function: Tangela Blind
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Posionpowder
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 20
+		Needs Custom Function: Tangela Posionpowder
+		Attack Type 1: G
+		Attack Cost of Type 1: 3
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 2
+97)
+Name: Venonat
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Venomoth
+	Type: G
+	Attack name: Stun Spore
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 10
+		Needs Custom Function: Venonat Stun Spore
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Leech Life
+		Attack Description: Remove a number of damage counters from Venonat equal to the damage done to the Defending Pokemon (after applying Weakness and Resistance). If Venonat has fewer damage counters than that, remove all of them.
+		Attack Damage: 10
+		Needs Custom Function: Venonat Leech Life
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+98)
+Name: Voltorb
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Electrode
+	Type: L
+	Attack name: Tackle
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Weakness: B
+	Resistance: None
+	Retreat Cost: 1
+99)
+Name: Vulpix
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Ninetales
+	Type: F
+	Attack name: Confuse Ray
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Confused.
+		Attack Damage: 10
+		Needs Custom Function: Vulpix Confuse Ray
+		Attack Type 1: F
+		Attack Cost of Type 1: 2
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 1
+100)
+Name: Weedle
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Kakuna
+	Type: G
+	Attack name: Poison Sting
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+		Attack Damage: 10
+		Needs Custom Function: Weedle Poison Sting
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+
+101)
+Name: Flareon
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: F
+	Attack name: Quick Attack
+		Attack Description: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+		Attack Damage: 10+
+		Needs Custom Function: Flareon Quick Attack
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Flamethrower
+		Attack Description: Discard 1 Fire Energy card attached to Flareon to use this attack.
+		Attack Damage: 60
+		Needs Custom Function: Flareon Flamethrower
+		Attack Type 1: F
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+102)
+Name: Jolteon
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: L
+	Attack name: Quick Attack
+		Attack Description: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+		Attack Damage: 10+
+		Needs Custom Function: Jolteon Quick Attack
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Pin Missle
+		Attack Description: Flip 4 coins. This attack does 20 damage times the number of heads.
+		Attack Damage: 20x
+		Needs Custom Function: Jolteon Pin Missle
+		Attack Type 1: L
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: B
+	Resistance: None
+	Retreat Cost: 1
+103)
+Name: Vaporeon
+	HP: 80
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: W
+	Attack name: Quick Attack
+		Attack Description: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+		Attack Damage: 10+
+		Needs Custom Function: Vaporeon Quick Attack
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Water Gun
+		Attack Description: Does 30 damage plus 10 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.
+		Attack Damage: 30+
+		Needs Custom Function: Vaporeon Water Gun
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+104)
+Name: Vileplume
+	HP: 80
+	Evolution Stage: 2
+	Next Evolution: None
+	Pokemon Power: Heal
+	PokePower Description: Once during your turn (before your attack), you may flip a coin. If heads, remove 1 damage counter from 1 of your Pok‚mon. This power can't be used if Vileplume is Asleep, Confused, or Paralyzed.
+	Type: G
+	Attack name: Petal Dance
+		Attack Description: Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage).
+		Attack Damage: 40x
+		Needs Custom Function: Vileplume Petal Dance
+		Attack Type 1: G
+		Attack Cost of Type 1: 3
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 2
+105)
+Name: Gloom
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: Vileplume
+	Type: G
+	Attack name: Posionpowder
+		Attack Description: The Defending Pokemon is now Posioned.
+		Attack Damage: 0
+		Needs Custom Function: Gloom Posionpowder
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Foul Odor
+		Attack Description: Both the Defending Pok‚mon and Gloom are now Confused (after doing damage).
+		Attack Damage: 20
+		Needs Custom Function: Gloom Foul Odor
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+106)
+Name: Primeape
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: B
+	Attack name: Fury Swipes
+		Attack Description: Flip 3 coins. this attack does 20 damage times the number of heads.
+		Attack Damage: 20x
+		Needs Custom Function: Primeape Fury Swipes
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+	Attack name: Tantrum
+		Attack Description: Flip a coin. If tails, Primeape is now Confused (after doing damage).
+		Attack Damage: 50
+		Needs Custom Function: Primeape Tantrum
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+107)
+Name: Rapidash
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: F
+	Attack name: Stomp
+		Attack Description: Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.
+		Attack Damage: 20+
+		Needs Custom Function: Rapidash Stomp
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Agility
+		Attack Description: Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash.
+		Attack Damage: 30
+		Needs Custom Function: Rapidash Agility
+		Attack Type 1: F
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 0
+108)
+Name: Eevee
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Vaporeon, Jolteaon, Flareon
+	Type: C
+	Attack name: Tail Wag
+		Attack Description: Flip a coin. If heads, the Defending Pokemon can't attack Eevee during your opponent's next turn. (Benching either Pokemon ends this effect.
+		Attack Damage: 0
+		Needs Custom Function: Eevee Tail Wag
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Quick Attack
+		Attack Description: Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.
+		Attack Damage: 10+
+		Needs Custom Function: Eevee Quick Attack
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Weakness: B
+	Resistance: P-30
+	Retreat Cost: 1
+109)
+Name: Mankey
+	HP: 30
+	Evolution Stage: 0
+	Next Evolution: Primeape
+	Pokemon Power: Peek
+	PokePower Description: Once during your turn (before your attack), you may look at one of the following: the top card of either player's deck, a random card from your opponent's hand, or one of either player's Prizes. This power can't be used if Mankey is Asleep, Confused, or Paralyzed.
+	Type: B
+	Attack name: Scratch
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 0
+110)
+Name: Oddish
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Gloom
+	Type: G
+	Attack name: Stun Spore
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Paralyzed.
+		Attack Damage: 10
+		Needs Custom Function: Oddish Stun Spore
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Sprout
+		Attack Description: Search your deck for a Basic Pokemon named Oddish and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)
+		Attack Damage: 0
+		Needs Custom Function: Oddish Sprout
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: F
+	Resistance: None
+	Retreat Cost: 1
+111)
+Name: Ekans
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Arbok
+	Type: G
+	Attack name: Spit Posion
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+		Attack Damage: 0
+		Needs Custom Function: Ekans Spit Posion
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Wrap
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 20
+		Needs Custom Function: Ekans Wrap
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+112)
+Name: Arbok
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: G
+	Attack name: Terror Strike
+		Attack Description: Flip a coin. If heads and if your opponent has any Benched Pokemon, he or she chooses 1 of them and switches it with the Defending Pokemon. (Do the damage before switching the Pokemon.)
+		Attack Damage: 10
+		Needs Custom Function: Arbok Terror Strike
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Attack name: Poison Fang
+		Attack Description: The Defending Pokemon is now Poisoned.
+		Attack Damage: 20
+		Needs Custom Function: Arbok Poison Fang
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 2
+113)
+Name: Sandslash
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: B
+	Attack name: Slash
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Fury Swipes
+		Attack Description: Flip 3 coins. This attack does 20 damage times the number of heads.
+		Attack Damage: 20x
+		Needs Custom Function: Sandslash Fury Swipes
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+	Weakness: G
+	Resistance: L-30
+	Retreat Cost: 1
+114)
+Name: Zubat
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Golbat
+	Type: G
+	Attack name: Supersonic
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Confused.
+		Attack Damage: 0
+		Needs Custom Function: Zubat Supersonic
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Leech Life
+		Attack Description: Remove a number of damage counters from Zubat equal to the damage done to the Defending Pokemon (after applying Weakness and Resistance). If Zubat has fewer damage counters than that, remove all of them.
+		Attack Damage: 10
+		Needs Custom Function: Zubat Leech Life
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: B-30
+	Retreat Cost: 0
+115)
+Name: Golbat
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: G
+	Attack name: Wing Attack
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 3
+	Attack name: Leech Life
+		Attack Description: Remove a number of damage counters from Golbat equal to the damage done to the Defending Pokemon (after applying Weakness and Resistance). If Golbat has fewer damage counters than that, remove all of them.
+		Attack Damage: 20
+		Needs Custom Function: Golbat Leech Life
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: B-30
+	Retreat Cost: 0
+116)
+Name: Psyduck
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Golduck
+	Type: W
+	Attack name: Headache
+		Attack Description: Your opponent can't play Trainer cards during his or her next turn.
+		Attack Damage: 0
+		Needs Custom Function: Psyduck Headache
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+	Attack name: Fury Swipes
+		Attack Description: Flip 3 coins. This attack does 10 damage times the number of heads.
+		Attack Damage: 10x
+		Needs Custom Function: Psyduck Fury Swipes
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+117)
+Name: Machamp
+	HP: 100
+	Evolution Stage: 2
+	Next Evolution: None
+	Pokemon Power: Strikes Back
+	PokePower Description: Whenever your opponent's attack damages Machamp (even if Machamp is Knocked Out), this power does 10 damage to the attacking Pokemon. (Don't apply Weakness and Resistance.) This power can't be used if Machamp is Asleep, Confused, or Paralyzed when your opponent attacks.
+	Type: B
+	Attack name: Seismic Toss
+		Attack Description: 
+		Attack Damage: 60
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 3
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 3
+118)
+Name: Tentacool
+	HP: 30
+	Evolution Stage: 0
+	Next Evolution: Tentacruel
+	Pokemon Power: Cowardice
+	PokePower Description: At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is Asleep, Confused, or Paralyzed.
+	Type: W
+	Attack name: Acid
+		Attack Description: 
+		Attack Damage: 10
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 0
+119)
+Name: Tentacruel
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: W
+	Attack name: Supersonic
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Confused.
+		Attack Damage: 0
+		Needs Custom Function: Tentacruel Supersonic
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Attack name: Jellyfish Sting
+		Attack Description: The Defending Pokemon is now Poisoned.
+		Attack Damage: 10
+		Needs Custom Function: Tentacruel Jellyfish Sting
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 0
+120)
+Name: Geodude
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Gravler
+	Type: B
+	Attack name: Stone Barrage
+		Attack Description: Flip a coin until you get tails. This attack does 10 damage times the number of heads.
+		Attack Damage: 10x
+		Needs Custom Function: Geodude Stone Barrage
+		Attack Type 1: B
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: G
+	Resistance: None
+	Retreat Cost: 1
+121)
+Name: Graveler
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: Golem
+	Type: B
+	Attack name: Harden
+		Attack Description: During your opponent's next turn, whenever 30 of less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)
+		Attack Damage: 0
+		Needs Custom Function: Graveler Harden
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+	Attack name: Rock Throw
+		Attack Description: 
+		Attack Damage: 40
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: G
+	Resistance: None
+	Retreat Cost: 2
+122)
+Name: Golem
+	HP: 80
+	Evolution Stage: 2
+	Next Evolution: None
+	Type: B
+	Attack name: Avalanche
+		Attack Description: 
+		Attack Damage: 60
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 3
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Attack name: Selfdestruct
+		Attack Description: Does 20 damage to each Pokemon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pok‚mon.) Golem does 100 damage to itself.
+		Attack Damage: 100
+		Needs Custom Function: Golem Selfdestruct
+		Attack Type 1: B
+		Attack Cost of Type 1: 4
+	Weakness: G
+	Resistance: None
+	Retreat Cost: 4
+123)
+Name: Ponyta
+	HP: 40
+	Evolution Stage: 0
+	Next Evolution: Rapidash
+	Type: F
+	Attack name: Smash Kick
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: C
+		Attack Cost of Type 1: 2
+	Attack name: Flame Tail
+		Attack Description: 
+		Attack Damage: 30
+		Needs Custom Function: Regular Function
+		Attack Type 1: F
+		Attack Cost of Type 1: 2
+	Weakness: W
+	Resistance: None
+	Retreat Cost: 1
+124)
+Name: Slowpoke
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Slowbro
+	Type: P
+	Attack name: Spacing Out
+		Attack Description: Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it.
+		Attack Damage: 0
+		Needs Custom Function: Slowpoke Spacing Out
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Scavenge
+		Attack Description: Discard 1 Psychic Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand.
+		Attack Damage: 0
+		Needs Custom Function: Slowpoke Scavenge
+		Attack Type 1: P
+		Attack Cost of Type 1: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+125)
+Name: Slowbro
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Pokemon Power: Strange Behavior
+	PokePower Description: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokemon to Slowbro as long as you don't Knock Out Slowbro. This power can't be used if Slowbro is Asleep, Confused, or Paralyzed.
+	Type: P
+	Attack name: Psyshock
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Paralyzed.
+		Attack Damage: 20
+		Needs Custom Function: Slowbro Psyshock
+		Attack Type 1: P
+		Attack Cost of Type 1: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+126)
+Name: Grimer
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Muk
+	Type: G
+	Attack name: Nasty Goo
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+		Attack Damage: 10
+		Needs Custom Function: Grimer Nasty Goo
+		Attack Type 1: C
+		Attack Cost of Type 1: 1
+	Attack name: Minimize
+		Attack Description: All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).
+		Attack Damage: 0
+		Needs Custom Function: Grimer Minimize
+		Attack Type 1: G
+		Attack Cost of Type 1: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+127)
+Name: Muk
+	HP: 70
+	Evolution Stage: 1
+	Next Evolution: None
+	Pokemon Power: Toxic Gas
+	PokePower Description: Ignore all Pokemon Powers other than Toxic Gas. This power stops working while Muk is Asleep, Confused, or Paralyzed.
+	Type: G
+	Attack name: Sludge
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+		Attack Damage: 30
+		Needs Custom Function: Muk Sludge
+		Attack Type 1: G
+		Attack Cost of Type 1: 3
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 2
+128)
+Name: Shelder
+	HP: 30
+	Evolution Stage: 0
+	Next Evolution: Cloyster
+	Type: W
+	Attack name: Supersonic
+		Attack Description: Flip a coin. If heads, the Defending Pok‚mon is now Confused.
+		Attack Damage: 0
+		Needs Custom Function: Shelder Supersonic
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Attack name: Hide in Shell
+		Attack Description: Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)
+		Attack Damage: 0
+		Needs Custom Function: Shelder Hide in Shell
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 1
+129)
+Name: Cloyster
+	HP: 50
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: W
+	Attack name: Clamp
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed. If tails, this attack does nothing (not even damage).
+		Attack Damage: 30
+		Needs Custom Function: Cloyster Clamp
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+	Attack name: Spike Cannon
+		Attack Description: Flip 2 coins. This attack does 30 damage times the number of heads.
+		Attack Damage: 30x
+		Needs Custom Function: Cloyster Spike Cannon
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 2
+130)
+Name: Gengar
+	HP: 80
+	Evolution Stage: 2
+	Next Evolution: None
+	Pokemon Power: Curse
+	PokePower Description: Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokemon to another (even if it would Knock Out the other Pokemon). This power can't be used if Gengar is Asleep, Confused, or Paralyzed.
+	Type: P
+	Attack name: Dark Mind
+		Attack Description: If your opponent has any Benched Pokemon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokemon.)
+		Attack Damage: 30
+		Needs Custom Function: Gengar Dark Mind
+		Attack Type 1: P
+		Attack Cost of Type 1: 3
+	Weakness: None
+	Resistance: B-30
+	Retreat Cost: 1
+131)
+Name: Hypno
+	HP: 90
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: P
+	Attack name: Prophecy
+		Attack Description: Look at up to 3 cards from the top of either player's deck and rearrange them as you like.
+		Attack Damage: 0
+		Needs Custom Function: Hypno Prophecy
+		Attack Type 1: P
+		Attack Cost of Type 1: 1
+	Attack name: Dark Mind
+		Attack Description: If you opponent has any Benched Pokemon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pok‚mon.)
+		Attack Damage: 30
+		Needs Custom Function: Hypno Dark Mind
+		Attack Type 1: P
+		Attack Cost of Type 1: 3
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 2
+132)
+Name: Krabby
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Kingler
+	Type: W
+	Attack name: Call for Family
+		Attack Description: Search your deck for a Basic Pokemon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench if full.)
+		Attack Damage: 0
+		Needs Custom Function: Krabby Call for Family
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Attack name: Irongrip
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 2
+133)
+Name: Kingler
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: W
+	Attack name: Flail
+		Attack Description: Does 10 damage times the number of damage counters on Kingler.
+		Attack Damage: 10x
+		Needs Custom Function: Kingler Flail
+		Attack Type 1: W
+		Attack Cost of Type 1: 1
+	Attack name: Crabhammer
+		Attack Description: 
+		Attack Damage: 40
+		Needs Custom Function: Regular Function
+		Attack Type 1: W
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: L
+	Resistance: None
+	Retreat Cost: 3
+134)
+Name: Hitmonlee
+	HP: 60
+	Evolution Stage: 0
+	Next Evolution: None
+	Type: B
+	Attack name: Stretch Kick
+		Attack Description: If you opponent has any Benched Pokemon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokemon.)
+		Attack Damage: 0
+		Needs Custom Function: Hitmonlee Stretch Kick
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+	Attack name: High Jump Kick
+		Attack Description: 
+		Attack Damage: 50
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 3
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+135)
+Name: Hitmonchan
+	HP: 70
+	Evolution Stage: 0
+	Next Evolution: Hitmontop
+	Type: B
+	Attack name: Jab
+		Attack Description: 
+		Attack Damage: 20
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 1
+	Attack name: Special Punch
+		Attack Description: 
+		Attack Damage: 40
+		Needs Custom Function: Regular Function
+		Attack Type 1: B
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 2
+136)
+Name: Koffing
+	HP: 50
+	Evolution Stage: 0
+	Next Evolution: Weezing
+	Type: G
+	Attack name: Foul Gas
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Poisoned; if tails, it is now Confused.
+		Attack Damage: 10
+		Needs Custom Function: Koffing Foul Gas
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
+137)
+Name: Weezing
+	HP: 60
+	Evolution Stage: 1
+	Next Evolution: None
+	Type: G
+	Attack name: Smog
+		Attack Description: Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+		Attack Damage: 20
+		Needs Custom Function: Weezing Smog
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+	Attack name: Selfdestruct 
+		Attack Description: Does 10 damage to each Pokemon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokemon.) Weezing does 60 damage to itself.
+		Attack Damage: 60
+		Needs Custom Function: Weezing Selfdestruct 
+		Attack Type 1: G
+		Attack Cost of Type 1: 2
+		Attack Type 2: C
+		Attack Cost of Type 2: 1
+	Weakness: P
+	Resistance: None
+	Retreat Cost: 1
