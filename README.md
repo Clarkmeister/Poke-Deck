@@ -22,20 +22,20 @@ We are going to make a graphical version of a PokeMon card game following the ru
 
 
 <b>Technologies: </b><br \>
-Qt Creator using C++ .
+Unity using C# Scripts .
 
 
 <b>Installation:</b><br \>
-1.  Install Qt 5.6 <br \>
+1.  Install Unity 5.3 <br \>
 2.  Open project <br \>
-3.  Clean all, run qmake, build all, run. <br \>
+3.  Run PokeDeck.exe <br \>
 
 <b>Bugs (Todo):</b><br />
 Placeholder.<br />
 Placeholder.<br />
 
 <b>Inspiration:</b><br />
-The inspiration for this game comes straight fromt he classic pokémon traading card game. It follows all the rules and standards setforth by the intial 150 pokemon release.
+The inspiration for this game comes straight from the classic pokémon traading card game. It follows all the rules and standards setforth by the intial 150 pokemon release.
 
 <b>License:</b><br />
 None<br />
@@ -46,3 +46,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br />
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br />
+
+<b>ScreenShots:</b><br />
+![Alt text](/doc/screenshots/splash_screen.PNG?raw=true "Splash Screen")
