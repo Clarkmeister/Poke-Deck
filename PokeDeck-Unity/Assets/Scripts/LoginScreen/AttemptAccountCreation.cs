@@ -51,6 +51,7 @@ public class AttemptAccountCreation : MonoBehaviour
         FileInfo userFileInfo = new FileInfo(_userFileName);
         if (userFileInfo.Exists)
         {
+            NotMatchingPasswords.gameObject.SetActive(false);
             UserAlreadyExistsText.gameObject.SetActive(true);
             Debug.Log("File Exists!");
         }
@@ -69,6 +70,7 @@ public class AttemptAccountCreation : MonoBehaviour
             }
             else
             {
+                UserAlreadyExistsText.gameObject.SetActive(false);
                 NotMatchingPasswords.gameObject.SetActive(true);
             }
             Debug.Log("File Does Not Exist!");
