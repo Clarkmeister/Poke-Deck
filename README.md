@@ -52,5 +52,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-
-<iframe src="https://drive.google.com/file/d/0B_1HMwDcWBKeSTBEQlJ4bEtrYlk/view?usp=sharing" style="width:100%; height:600px; border:0;"></iframe>
+</break>
+<iframe src="https://drive.google.com/file/d/0B_1HMwDcWBKeSTBEQlJ4bEtrYlk/view?usp=sharing"></iframe>
