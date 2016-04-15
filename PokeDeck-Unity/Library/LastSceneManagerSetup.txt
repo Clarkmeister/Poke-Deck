@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Stadium.unity
+- path: Assets/Scenes/PokeDex.unity
   isLoaded: 1
   isActive: 1
