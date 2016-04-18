@@ -48,4 +48,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <b>ScreenShots:</b><br />
 
 <img src="https://lh4.googleusercontent.com/E9sQdks9Te4y4YuXzxYG8c1wPcSNqh-7BTkKTw-nboKqX915HQWp4Q=w1200-h630-p" alt="Pokemon Screen Shot" height="400" width="400">
-<img src="https://drive.google.com/file/d/0B2xgtpZvfcJwS1BIVWpidEFBTkk/view" alt="Deck Screen Shot" height="400" width="400">
+<img src="https://drive.google.com/file/d/0B2xgtpZvfcJwS1BIVWpidEFBTkk" alt="Deck Screen Shot" height="400" width="400">
