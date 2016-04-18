@@ -4,7 +4,7 @@ CST 238 Project by Ryan Bell &amp; Arthur Clark
 Project Logo:
 
 <b>Description:</b><br />
-A cross platform game for Spring term of 2016 for CST 238 at Oregon Institute of Technology. Allows users to play the standard Pokemon card game on iOS, Android and all major desktop platforms (Windows, OSX, Linux). Built using C++ and the Qt framework. 
+A cross platform game for Spring term of 2016 for CST 238 at Oregon Institute of Technology. Allows users to play the standard Pokemon card game on iOS, Android and all major desktop platforms (Windows, OSX, Linux). Built using C# and the Unity Engine. 
 <i>Note: A detailed explanation of the rules and gameplay can be found at-</i>
 http://www.wikihow.com/Play-With-Pokemon-Cards.
 
