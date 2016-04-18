@@ -18,8 +18,6 @@ Current Developers.
 [Ignistorm](https://github.com/Ignistorm)<br />
 [Clarkmeister](https://github.com/Clarkmeister)<br />
 
-We are going to make a graphical version of a PokeMon card game following the rules and stipulations describe by:
-
 
 <b>Technologies: </b><br \>
 Unity using C# Scripts .
