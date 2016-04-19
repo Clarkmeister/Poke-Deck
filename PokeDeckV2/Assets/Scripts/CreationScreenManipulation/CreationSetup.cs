@@ -111,16 +111,18 @@ public class CreationSetup : MonoBehaviour {
         m_InvalidPassword.gameObject.SetActive(false);
         //************************************************//
 
-        if (m_gameData.m_Trainers.CurrentPlayerIsPlayerOne)
+        if (m_gameData.isTrainerOneActive())
         { m_gameData.m_Trainers.TrainerOne = trainer; }
         else
         { m_gameData.m_Trainers.TrainerTwo = trainer; }
+        Debug.Log("Trainer One: " + m_gameData.m_Trainers.TrainerOne.TrainerName);
+        Debug.Log("Trainer Two: " + m_gameData.m_Trainers.TrainerTwo.TrainerName);
     }
 
     public void SetDeckNumber (int number)
     {
         //Check if Player One or Two, Display On Screen:
-        if (m_gameData.m_Trainers.CurrentPlayerIsPlayerOne)
+        if (m_gameData.isTrainerOneActive())
         {
             m_gameData.m_Trainers.TrainerOne.PlayerDeck.DeckNumber = number;
         }

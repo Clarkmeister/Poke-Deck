@@ -31,12 +31,12 @@ public class Trainers : MonoBehaviour
     {
         if(PlayerOne)
         {
-            CurrentPlayerIsPlayerOne = true;
+            m_GameData.m_Trainers.CurrentPlayerIsPlayerOne = true;
             Debug.Log("PlayerOne Active?: " + CurrentPlayerIsPlayerOne);
         }
         else
         {
-            CurrentPlayerIsPlayerOne = false;
+            m_GameData.m_Trainers.CurrentPlayerIsPlayerOne = false;
             Debug.Log("PlayerOne Active?: " + CurrentPlayerIsPlayerOne);
         }
     }

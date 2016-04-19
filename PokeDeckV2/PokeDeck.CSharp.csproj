@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\DataStructures\PokemonColors.cs" />
     <Compile Include="Assets\Scripts\DataStructures\Trainer.cs" />
     <Compile Include="Assets\Scripts\DataStructures\Trainers.cs" />
+    <Compile Include="Assets\Scripts\MainMenuManipulation\UpdateMainMenu.cs" />
     <Compile Include="Assets\Scripts\ObjectManipulation\ColorChange\TextColorChange.cs" />
     <Compile Include="Assets\Scripts\ObjectManipulation\Create_Destroy\DontDestroyThisObject.cs" />
     <Compile Include="Assets\Scripts\SettingsManipulation\ChangeAudioSourceVolume.cs" />

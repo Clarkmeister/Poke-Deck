@@ -57,4 +57,36 @@ public class GameData : MonoBehaviour
     //Save Any Settings That Are Place in GameSettings.SaveSettings().
     public void SaveAll()
     { m_GameSettings.SaveSettings(); }
+
+    //SetPlayerOneActive
+    public void SetTrainerOneActive()
+    {
+        m_Trainers.CurrentPlayerIsPlayerOne = true;
+    }
+    public void SetTrainerTwoActive()
+    {
+        m_Trainers.CurrentPlayerIsPlayerOne = false;
+    }
+    //Is PlayerOne Active Player?
+    public bool isTrainerOneActive()
+    {
+        return m_Trainers.CurrentPlayerIsPlayerOne;
+    }
+
+    public bool isTrainerOneEmpty()
+    {
+        if(m_Trainers.TrainerOne.TrainerName == null)
+        {
+            return true;
+        }
+        return false;
+    }
+    public bool isTrainerTwoEmpty()
+    {
+        if (m_Trainers.TrainerTwo.TrainerName == null)
+        {
+            return true;
+        }
+        return false;
+    }
 }

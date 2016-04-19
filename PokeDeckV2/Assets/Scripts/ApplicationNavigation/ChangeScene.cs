@@ -2,8 +2,6 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-//hello.test
-
 public class ChangeScene : MonoBehaviour
 {
     public void ChangeToScene(string SceneName)
