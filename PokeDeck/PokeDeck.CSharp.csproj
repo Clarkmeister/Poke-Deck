@@ -73,6 +73,7 @@
     <Compile Include="Assets\_Scripts\DataStructures\Settings.cs" />
     <Compile Include="Assets\_Scripts\DataStructures\Trainer.cs" />
     <Compile Include="Assets\_Scripts\Navigation\NavigateUI.cs" />
+    <Compile Include="Assets\_Scripts\Settings\SettingsScreenScript.cs" />
     <Compile Include="Assets\_Scripts\UIManipulation\Colors\BorderColorChange.cs" />
     <Compile Include="Assets\_Scripts\UIManipulation\Colors\PokemonColors.cs" />
     <Compile Include="Assets\_Scripts\UIManipulation\Colors\TextColorChange.cs" />
