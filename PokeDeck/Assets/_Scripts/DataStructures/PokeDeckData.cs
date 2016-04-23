@@ -16,8 +16,9 @@ public class PokeDeckData : MonoBehaviour
 		PlayerOne = Trainer.CreateInstance<Trainer>();
 		PlayerTwo = Trainer.CreateInstance<Trainer>();
 		GameSettings = Settings.CreateInstance<Settings>();
-		GameSettings.LoadSettings();
+        GameSettings.LoadSettings();
         AudioListener.volume = GameSettings.MasterVolume;
+        BackgroundMusic.volume = GameSettings.MusicVolume;
     }
 
     IEnumerator Example()

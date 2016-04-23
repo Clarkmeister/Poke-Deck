@@ -6,6 +6,8 @@ public class SettingsScreenScript : MonoBehaviour {
     PokeDeckData _GameData;
     Slider _MasterVolumeSlider;
     Slider _MusicVolumeSlider;
+    float _InitialMasterVolume;
+    float _InitialMusicVolume;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +19,8 @@ public class SettingsScreenScript : MonoBehaviour {
         _MusicVolumeSlider = data.GetComponent<Slider>();
         _MasterVolumeSlider.value = _GameData.GameSettings.MasterVolume;
         _MusicVolumeSlider.value = _GameData.GameSettings.MusicVolume;
-
+        _InitialMasterVolume = _GameData.GameSettings.MasterVolume;
+        _InitialMusicVolume = _GameData.GameSettings.MusicVolume;
     }
 	
     public void MasterVolumeUpdater()
@@ -30,6 +33,20 @@ public class SettingsScreenScript : MonoBehaviour {
     {
         _GameData.GameSettings.MusicVolume = _MusicVolumeSlider.value;
         _GameData.BackgroundMusic.volume = _GameData.GameSettings.MusicVolume;
+    }
+
+    public void SaveSettings()
+    {
+        _GameData.GameSettings.SaveSettings();
+    }
+
+    public void RevertSettings()
+    {
+        _GameData.GameSettings.MasterVolume = _InitialMasterVolume;
+        _GameData.GameSettings.MusicVolume = _InitialMusicVolume;
+        _GameData.BackgroundMusic.volume = _GameData.GameSettings.MusicVolume;
+        AudioListener.volume = _GameData.GameSettings.MasterVolume;
+        _GameData.GameSettings.SaveSettings();
     }
 
 }
