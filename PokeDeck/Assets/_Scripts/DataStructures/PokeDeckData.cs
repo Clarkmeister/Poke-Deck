@@ -12,15 +12,13 @@ public class PokeDeckData : MonoBehaviour
 
 	void Start ()
 	{
-		DontDestroyOnLoad(this);
-		PlayerOne = ScriptableObject.CreateInstance<Trainer>();
-		PlayerTwo = ScriptableObject.CreateInstance<Trainer>();
-		GameSettings = ScriptableObject.CreateInstance<Settings>();
+        DontDestroyOnLoad(this);
+        PlayerOne = ScriptableObject.CreateInstance<Trainer>();
+        PlayerTwo = ScriptableObject.CreateInstance<Trainer>();
+        GameSettings = ScriptableObject.CreateInstance<Settings>();
         GameSettings.LoadSettings();
         AudioListener.volume = GameSettings.MasterVolume;
         BackgroundMusic.volume = GameSettings.MusicVolume;
-        PlayerOne.Name = "PlayerOne";
-        PlayerTwo.Name = "PlayerTwo";
     }
 
     //Sets CurrentTrainer to Desired Player.
@@ -34,16 +32,10 @@ public class PokeDeckData : MonoBehaviour
     public bool IsPlayerTwoActive()
     { if(CurrentTrainer == PlayerTwo) { return true; } /*else*/return false; }
 
-	//Automatically Called When Game Exits
+	//Automatically Called When Game Exits (PlayerPrefs AutoSave)
 	void OnApplicationQuit()
 	{
-		Debug.Log("Application Quit Automatically Saves PlayerPrefs");
+       
 	}
 
-    public void DummyTestingFillInData()
-    {
-        PlayerOne.Name = "PlayerOne";
-        PlayerTwo.Name = "PlayerTwo";
-        CurrentTrainer = PlayerOne;
-    }
 }

@@ -17,6 +17,7 @@ public class CreationScript : MonoBehaviour {
     GameObject PasswordsDontMatch;
     GameObject GreenCheckPasswordLength;
     GameObject RedXPasswordLength;
+    GameObject DeckSelectBox;
 
     InputField PasswordText;
     InputField PasswordConfimText;
@@ -46,6 +47,8 @@ public class CreationScript : MonoBehaviour {
         PasswordConfimText = data.GetComponent<InputField>();
         data = GameObject.Find("TrainerNameInputField");
         TrainerNameInputField = data.GetComponent<InputField>();
+        DeckSelectBox = GameObject.Find("DeckSelection");
+        DeckSelectBox.SetActive(false);
         GreenCheckPasswordLength.SetActive(false);
         RedXPasswordLength.SetActive(false);
         NameToShort.SetActive(false);
@@ -55,7 +58,6 @@ public class CreationScript : MonoBehaviour {
         GreenCheckPassword.SetActive(false);
         RedXPassword.SetActive(false);
         CreateTrainerButton.interactable = false;
-        Debug.Log(_GameData.CurrentTrainer.Name);
     }
 	
     public void OnEndTrainerNameEdit(string currentData)
@@ -182,6 +184,23 @@ public class CreationScript : MonoBehaviour {
     {
         _GameData.CurrentTrainer.Name = TrainerNameInputField.text;
         _GameData.CurrentTrainer.SetPassword(PasswordText.text);
+        _GameData.CurrentTrainer.DeckNumber = 0;
+        _GameData.CurrentTrainer.SaveTrainer();
+        SelectDeck();
+    }
+
+    void SelectDeck()
+    {
+        GameObject InputBox = GameObject.Find("InputFieldBox");
+        GameObject Specs = GameObject.Find("Specifications");
+        InputBox.SetActive(false);
+        Specs.SetActive(false);
+        DeckSelectBox.SetActive(true);
+    }
+
+    public void AssignDeck(int deckNumber)
+    {
+        _GameData.CurrentTrainer.DeckNumber = deckNumber;
         _GameData.CurrentTrainer.SaveTrainer();
     }
 }

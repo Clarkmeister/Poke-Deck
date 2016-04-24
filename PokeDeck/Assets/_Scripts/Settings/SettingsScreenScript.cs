@@ -8,6 +8,7 @@ public class SettingsScreenScript : MonoBehaviour {
     Slider _MusicVolumeSlider;
     float _InitialMasterVolume;
     float _InitialMusicVolume;
+    GameObject DeleteAllBox;
 
 	// Use this for initialization
 	void Start () {
@@ -17,10 +18,12 @@ public class SettingsScreenScript : MonoBehaviour {
         _MasterVolumeSlider = data.GetComponent<Slider>();
         data = GameObject.Find("MusicVolumeSlider");
         _MusicVolumeSlider = data.GetComponent<Slider>();
+        DeleteAllBox = GameObject.Find("DeleteAllTrainersConfirmPanel");
         _MasterVolumeSlider.value = _GameData.GameSettings.MasterVolume;
         _MusicVolumeSlider.value = _GameData.GameSettings.MusicVolume;
         _InitialMasterVolume = _GameData.GameSettings.MasterVolume;
         _InitialMusicVolume = _GameData.GameSettings.MusicVolume;
+        DeleteAllBox.SetActive(false);
     }
 	
     public void MasterVolumeUpdater()
@@ -49,4 +52,30 @@ public class SettingsScreenScript : MonoBehaviour {
         _GameData.GameSettings.SaveSettings();
     }
 
+    public void ShowDeleteBox()
+    {
+        DeleteAllBox.SetActive(true);
+    }
+
+    public void HideDeleteBox()
+    {
+        DeleteAllBox.SetActive(false);
+    }
+
+    public void DeleteAll()
+    {
+        _GameData.GameSettings.RestoreDefaults();
+        Destroy(_GameData.PlayerOne);
+        _GameData.PlayerOne = ScriptableObject.CreateInstance<Trainer>();
+        Destroy(_GameData.PlayerTwo);
+        _GameData.PlayerTwo = ScriptableObject.CreateInstance<Trainer>();
+        _GameData.GameSettings.SaveSettings();
+        _GameData.BackgroundMusic.volume = _GameData.GameSettings.MusicVolume;
+        AudioListener.volume = _GameData.GameSettings.MasterVolume;
+        _MasterVolumeSlider.value = _GameData.GameSettings.MasterVolume;
+        _MusicVolumeSlider.value = _GameData.GameSettings.MusicVolume;
+        _InitialMasterVolume = _GameData.GameSettings.MasterVolume;
+        _InitialMusicVolume = _GameData.GameSettings.MusicVolume;
+        DeleteAllBox.SetActive(false);
+    }
 }
