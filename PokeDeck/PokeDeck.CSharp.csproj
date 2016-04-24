@@ -79,6 +79,8 @@
     <Compile Include="Assets\_Scripts\DataStructures\PokeDeckData.cs" />
     <Compile Include="Assets\_Scripts\DataStructures\Settings.cs" />
     <Compile Include="Assets\_Scripts\DataStructures\Trainer.cs" />
+    <Compile Include="Assets\_Scripts\GameScripts\ConstantXRotate.cs" />
+    <Compile Include="Assets\_Scripts\GameScripts\ConstantYRotate.cs" />
     <Compile Include="Assets\_Scripts\MainMenu\MainMenuScript.cs" />
     <Compile Include="Assets\_Scripts\Navigation\NavigateUI.cs" />
     <Compile Include="Assets\_Scripts\Settings\SettingsScreenScript.cs" />
