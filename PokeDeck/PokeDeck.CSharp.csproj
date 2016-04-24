@@ -67,11 +67,19 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Scripts\CreationScreen\CreationScript.cs" />
     <Compile Include="Assets\_Scripts\DataStructures\PokeDeckData.cs" />
     <Compile Include="Assets\_Scripts\DataStructures\Settings.cs" />
     <Compile Include="Assets\_Scripts\DataStructures\Trainer.cs" />
+    <Compile Include="Assets\_Scripts\MainMenu\MainMenuScript.cs" />
     <Compile Include="Assets\_Scripts\Navigation\NavigateUI.cs" />
     <Compile Include="Assets\_Scripts\Settings\SettingsScreenScript.cs" />
     <Compile Include="Assets\_Scripts\UIManipulation\Colors\BorderColorChange.cs" />
