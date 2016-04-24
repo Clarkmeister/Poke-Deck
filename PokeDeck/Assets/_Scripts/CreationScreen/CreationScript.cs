@@ -177,4 +177,11 @@ public class CreationScript : MonoBehaviour {
 
         return true;
     }
+
+    public void CreateThisTrainer()
+    {
+        _GameData.CurrentTrainer.Name = TrainerNameInputField.text;
+        _GameData.CurrentTrainer.SetPassword(PasswordText.text);
+        _GameData.CurrentTrainer.SaveTrainer();
+    }
 }
